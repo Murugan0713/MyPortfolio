@@ -1,3 +1,8 @@
 Here is the needed resources for my portfolio
 
 color combinations:https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25
+colors:
+    navbar=#213448
+    hero=#547792
+    aboutMyself=#94b4c1
+    skills=#87A2FB

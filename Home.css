@@ -180,3 +180,15 @@ h3{
   padding: 5rem 0 0 5rem;
 }
 /*css for skill section*/
+.skills{
+  height: 60vh;
+  background-color: #87A2FB;
+}
+.skills-title{
+  display:flex;
+  color:white;
+  justify-content: center;
+  font-family: "Georgia", Times, serif;
+  text-shadow: 2px 2px 4px #000000;
+  padding-top: 1rem;
+}
