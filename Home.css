@@ -8,7 +8,8 @@ nav > ul {
   display: flex;
   justify-content: flex-end;
   padding: 1rem;
-  background-color: #213448;
+  background-color: #547792;
+  /*background-color: #213448;*/
 }
 nav > ul > button {
   margin-right: 1rem;
@@ -99,96 +100,168 @@ nav > ul > button:hover {
 }
 
 /*css for hero section*/
-.hero {
-  height: 78vh;
-  width: 100%;
-  background: transparent;
-  backdrop-filter: blur(12px);
-  background-color: #547792;
-}
-.welcome {
+.container{
   display: flex;
-  padding-top: 10%;
-  padding-left: 40%;
-  color: white;
-  font-family: "Georgia", Times, serif;
-  position: relative;
-  animation-name: example;
-  animation-duration: 2s;
-  text-shadow: 2px 2px 4px #000000;
+  background-color:#213448 ;
+  height: 36rem;
+  width:100%
 }
-.welcomepara {
+.box1{
   display: flex;
-  padding-top: 10px;
-  padding-left: 40%;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  position: relative;
-  animation-name: example;
-  animation-duration: 2s;
-  text-shadow: 2px 2px 4px #000000;
+  align-items: center;
+  text-align: center;
+  background-color:#547792 ;
+  height:36rem;
+  width: 50%;
 }
+.box2{
+  height:36rem;
+  width: 50%;
+  border-left: 80px solid #547792;
+  border-bottom: 36rem solid transparent;
+  box-sizing: border-box; 
+}
+
+.Quote{
+  color:#213448 ;
+  font-size: 4rem;
+}
+
+.QuoteContainer>h2{
+  color: white;
+}
+
 .profile-pic {
   float: right;
-  height: 27rem;
-  padding-top: 2rem;
-  padding-right: 8rem;
+  height: 34rem;
+  padding-top: 2.5rem;
+  padding-right: 2rem;
+  padding-bottom: 0;
+  padding-left: 0;
   position: relative;
   animation-name: example;
   animation-duration: 2s;
   filter: drop-shadow(5px 5px 10px #555);
+  z-index:3;
 }
-@keyframes example {
-  from {right:0;}
-  to {right:-10px;}
-}
+/*@keyframes example {
+  from {
+    right: 0;
+  }
+  to {
+    right: -10px;
+  }
+}*/
 /*css for About section*/
 .About {
   background-color: #94b4c1;
   height: 60vh;
 }
-.About-title{
-  display:flex;
-  color:white;
+.About-title {
+  display: flex;
+  color: white;
   justify-content: center;
   font-family: "Georgia", Times, serif;
   text-shadow: 2px 2px 4px #000000;
   padding-top: 1rem;
 }
-.passport-image{
-  height:15rem;
+.passport-image {
+  height: 15rem;
   border-radius: 50%;
   filter: drop-shadow(5px 5px 10px #555);
-  margin:4rem 0 0 4rem;
-  float:left;
+  margin: 4rem 0 0 4rem;
+  float: left;
 }
-.svg{
-  float:left;
+.svg {
+  float: left;
   filter: drop-shadow(5px 5px 10px #555);
   padding-right: 1rem;
 }
-h3{
-  color:white;
+h3 {
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 2px 2px 4px #000000;
   padding: 1rem 0 2rem 2rem;
 }
-.container{
-  display:grid;
+.About-container {
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   padding: 5rem 0 0 5rem;
 }
 /*css for skill section*/
-.skills{
-  height: 60vh;
-  background-color: #87A2FB;
+.skills {
+  height: 40vh;
+  background-color: #b9c4e6;
 }
-.skills-title{
-  display:flex;
-  color:white;
+.skills-title {
+  display: flex;
+  color: white;
   justify-content: center;
   font-family: "Georgia", Times, serif;
   text-shadow: 2px 2px 4px #000000;
   padding-top: 1rem;
+}
+.Skill-svg {
+  height: 4rem;
+  filter: drop-shadow(5px 5px 10px #555);
+}
+.skill-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3rem;
+}
+.svg-para {
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.floating {
+  border-radius: 30%;
+  background-color: lightblue;
+  position: relative;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+/*Below for Tools section*/
+.Tools{
+  background-color:#b9c4e6;
+  height:40vh;
+}
+.Tools-title{
+  display:flex;
+  padding:1rem;
+  justify-content: center;
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 4px #000000;
+}
+/*below for contact section*/
+.contact{
+  background-color: #b4c5c9;
+  height:40vh;
+}
+.Contact-title{
+  display:flex;
+  padding:1rem;
+  justify-content: center;
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 4px #000000;
 }

@@ -6,3 +6,4 @@ colors:
     hero=#547792
     aboutMyself=#94b4c1
     skills=#87A2FB
+    tools=rgb(159, 176, 182)
